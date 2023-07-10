@@ -1,0 +1,330 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه اصلی</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.rtl.min.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'font awesome icon/font-awesome.min.css-org.css' %}">
+
+    <style>
+        body {
+            font-family: Anjoman-Black;
+        }
+    </style>
+</head>
+
+<body dir="rtl">
+    <div class="container-xxl">
+
+        <nav class="navbar navbar-dark d-flex justify-content-between  navbar-index ">
+           
+                <div class="ps-1 ps-sm-3">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false">
+                        <span aria-label="Toggle navigation"></span>
+
+                        <span class="navbar-toggler-icon "></span>
+                    </button>
+                    <span class="navbar-band">
+                        <a href="#" class="nav-start-ob">خانه</a>
+                        <a href="#" class="nav-start-ob">اخبار</a>
+                        <a href="#" class="nav-start-ob">بلاگ</a>
+                        <a href="#" class="nav-start-ob">درباره ما</a>
+                        <a href="register-madrse.html" target="_blank" class="nav-start-ob">فرم ثبت نام</a>
+                    </span>
+                </div>
+                <div class="nav-e">
+                    <a href="#" class="nave-end-ob d-none d-sm-flex">نام دانش آموز</a>
+                    <ul class="fa-ul">
+                        <i class="fa-li fa fa-user-circle font-color-hamze-14 profile-navbar "
+                            style="margin-top: 9px; margin-left: 50px; font-size: 28px;"></i>
+                    </ul>
+                </div>
+
+
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                    </ul>
+                </div>
+
+            
+
+
+
+
+
+        </nav>
+
+
+
+
+
+        <div id="carousel-tap" class="carousel slide shadow mt-4 " data-bs-ride="true">
+
+            <div class="carousel-inner ">
+                <div class="carousel-item active">
+                    <div class=" mt-3  ">
+                        <div class="item-slide">
+                            <div class="nav-blog-ob-t d-flex justify-content-sm-center">
+                                <img src="{% static 'pic/book-composition-with-open-book_23-2147690555.avif' %}" alt="blog"
+                                    class="shadow-lg image-blog m-3">
+                                <div class="blog-text back-web-hamze-14 m-3 font-color-hamze-14 p-3 d-none d-sm-flex">
+                                    Lorem ipsum
+                                    dolor
+                                    sit amet
+                                    consectetur adipisicing elit. Sunt voluptas unde vero id perspiciatis
+                                    consequuntur
+                                    eligendi
+                                    ea
+                                    voluptatem ipsam, iure repellendus quia odit dolor, modi fuga rem harum!
+                                    Eveniet,
+                                    eligendi!
+                                </div>
+                            </div>
+                            <div
+                                class="nav-blog-ob-b d-flex justify-content-between text-muted text-bottom-blog-history">
+                                <div>
+                                    <p class="p-top d-none d-sm-flex ">لورم اپیزود ..</p>
+                                    <br>
+                                    <p class="p-bottom d-none d-sm-flex">تازیخ 12/6/6</p>
+                                </div>
+                                <div class="btn shadow-lg btn-blog btn-sm d-none d-sm-flex" style="border-radius: 0px;">
+                                    <p>
+                                        ادامه مطلب
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="mt-3  ">
+                        <div class="item-slide">
+                            <div class="nav-blog-ob-t d-flex ">
+                                <img src="assets/pic/book-composition-with-open-book_23-2147690555.avif" alt="blog"
+                                    class="shadow-lg image-blog m-3">
+                                <div class="blog-text back-web-hamze-14 m-3 font-color-hamze-14 p-3 d-none d-sm-flex">
+                                    Lorem ipsum
+                                    dolor
+                                    sit amet
+                                    consectetur adipisicing elit. Sunt voluptas unde vero id perspiciatis
+                                    consequuntur
+                                    eligendi
+                                    ea
+                                    voluptatem ipsam, iure repellendus quia odit dolor, modi fuga rem harum!
+                                    Eveniet,
+                                    eligendi!
+                                </div>
+                            </div>
+                            <div
+                                class="nav-blog-ob-b d-flex justify-content-between text-muted text-bottom-blog-history">
+                                <div>
+                                    <p class="p-top d-none d-sm-flex ">لورم اپیزود ..</p>
+                                    <br>
+                                    <p class="p-bottom d-none d-sm-flex">تازیخ 12/6/6</p>
+                                </div>
+                                <div class="btn shadow-lg btn-blog btn-sm d-none d-sm-flex" style="border-radius: 0px;">
+                                    <p>
+                                        ادامه مطلب
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="mt-3  ">
+                        <div class="item-slide">
+                            <div class="nav-blog-ob-t d-block  d-sm-flex">
+                                <img src="assets/pic/book-composition-with-open-book_23-2147690555.avif" alt="blog"
+                                    class="shadow-lg image-blog m-3">
+                                <div class="blog-text back-web-hamze-14 m-3 font-color-hamze-14 p-3 d-none d-sm-flex">
+                                    Lorem ipsum
+                                    dolor
+                                    sit amet
+                                    consectetur adipisicing elit. Sunt voluptas unde vero id perspiciatis
+                                    consequuntur
+                                    eligendi
+                                    ea
+                                    voluptatem ipsam, iure repellendus quia odit dolor, modi fuga rem harum!
+                                    Eveniet,
+                                    eligendi!
+                                </div>
+                            </div>
+                            <div
+                                class="nav-blog-ob-b d-flex justify-content-between text-muted text-bottom-blog-history">
+                                <div>
+                                    <p class="p-top d-none d-sm-flex">لورم اپیزود ..</p>
+                                    <br>
+                                    <p class="p-bottom d-none d-sm-flex">تازیخ 12/6/6</p>
+                                </div>
+                                <div class="btn shadow-lg btn-blog btn-sm d-none d-sm-flex" style="border-radius: 0px;">
+                                    <p>
+                                        ادامه مطلب
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-indicators active">
+                <button type="button" data-bs-target="#carousel-tap" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel-tap" data-bs-slide-to="1" aria-label="Slide 2"
+                    class="active"></button>
+                <button type="button" data-bs-target="#carousel-tap" data-bs-slide-to="2" aria-label="Slide 3"
+                    class="active"></button>
+            </div>
+        </div>
+        <div class="shadow mt-4 d-none d-sm-flex">
+            <div class="row table table-bartar">
+                <div class="col-3 ps-5">
+                    <p class="mt-5 h6 ps-3">دانش آموزان برتر</p>
+                    <hr>
+                    <p class="mt-1 h6 ps-3">سال 1401</p>
+
+                </div>
+                <div class="col-9">
+                    <table class="table table-hover table-bartar">
+                        <thead>
+                            <tr>
+                                <td></td>
+                                <th>دهم</th>
+                                <th>یازدهم</th>
+                                <th>دوازدهم</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                {% for student in rank1 %}
+                                <td>{{student.firstName}} {{student.lastName}}</td>
+                                {% endfor %}
+                            </tr> 
+                            <tr>
+                                <th scope="row">2</th>
+                                {% for student in rank2 %}
+                                <td>{{student.firstName}} {{student.lastName}}</td>
+                                {% endfor %}
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                {% for student in rank3 %}
+                                <td>{{student.firstName}} {{student.lastName}}</td>
+                                {% endfor %}
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+        <div class=" d-sm-none mt-3">
+            <div class="h1 d-flex justify-content-center">
+                titel
+            </div>
+            <hr class="text-muted">
+            <div class="row shadow div-mobile-tob-student">
+                <div class="col-8 back-web-hamze-14 font-color-hamze-14 p-2  div-mobile-tob-student">
+                    ارشیا مرادی کلاس 114
+                </div>
+                <div class="col-3 p-2  div-mobile-tob-student">
+                    19.5
+                </div>
+            </div>
+            <hr class="text-muted">
+
+        </div>
+        <div id="carousel-bottom" class="carousel slide shadow mt-4" data-bs-ride="true">
+
+            <div class="carousel-inner ">
+                {% for post in posts %}
+                {% if post.id == 1 %}
+                <div class="carousel-item active">
+                    <div class="mt-3  ">
+                        <div class="item-slide">
+                            <div class="nav-blog-ob-t d-block  d-sm-flex ">
+                                <!-- <img src="assets/pic/book-composition-with-open-book_23-2147690555.avif" alt="blog"
+                                    class=" image-blog m-0 p-2 shadow-none"> -->
+                                <div class="blog-text m-3 font-color-hamze-14-blue p-3">
+                                    <h1>{{ post.title }}</h1>
+                                    <br>
+                                    <p>{{ post.content }}</p>
+                                    <br>
+                                    <div class=" text-muted text-bottom-blog-history d-flex justify-content-between">
+                                        <div>
+                                            <p class="p-bottom">تاریخ {{ post.created_on }}</p>
+                                        </div>
+                                        <div class="btn shadow-lg btn-blog-bottom btn-sm" style="border-radius: 0px;">
+                                            <p>
+                                                ادامه مطلب
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% else %}
+                <div class="carousel-item">
+                    <div class="mt-3  ">
+                        <div class="item-slide">
+                            <div class="nav-blog-ob-t d-block  d-sm-flex ">
+                                <!-- <img src="assets/pic/book-composition-with-open-book_23-2147690555.avif" alt="blog"
+                                    class=" image-blog m-0 p-2 shadow-none"> -->
+                                <div class="blog-text m-3 font-color-hamze-14-blue p-3">
+                                    <h1>{{ post.title }}</h1>
+                                    <br>
+                                    <p>{{ post.content }}</p>
+                                    <br>
+                                    <div class=" text-muted text-bottom-blog-history d-flex justify-content-between">
+                                        <div>
+                                            <p class="p-bottom">تاریخ {{ post.created_on }}</p>
+                                        </div>
+                                        <div class="btn shadow-lg btn-blog-bottom btn-sm" style="border-radius: 0px;">
+                                            <p>
+                                                ادامه مطلب
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+                <div class="carousel-indicators active">
+                    <button type="button" data-bs-target="#carousel-bottom" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel-bottom" data-bs-slide-to="1" aria-label="Slide 2"
+                        class="active"></button>
+                    <button type="button" data-bs-target="#carousel-bottom" data-bs-slide-to="2" aria-label="Slide 3"
+                        class="active"></button>
+                </div>
+            </div>
+        </div>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+</body>
+
+</html>

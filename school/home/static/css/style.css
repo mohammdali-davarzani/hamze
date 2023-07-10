@@ -1,0 +1,174 @@
+
+@font-face {
+    font-family:Anjoman-Black;
+    src: url(assets/font/Anjoman-Black.ttf);
+}
+body{
+    font-family:Anjoman-Black;
+
+}
+.font-color-hamze-14{
+    color: #ffffff;
+
+}
+.back-web-hamze-14{
+    background-color: #253170;
+}
+a.nav-start-ob{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #ffffff;
+
+
+}
+.navbar-index{
+    background-color: #253170;
+    margin-top: 10px;
+}
+a.nave-end-ob{
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 34px;
+}
+img.image-blog{
+    width: 200px;
+    height: 200px;
+}
+div.text-bottom-blog-history .p-top{
+    font-size: 8px;
+    margin-right: 20px;
+    margin-bottom: -10px;
+}
+div.text-bottom-blog-history .p-bottom{
+    font-size: 8px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+div.text-bottom-blog-history div.btn-blog{
+ background-color: #253170;
+ color: #ffffff;
+ font-size: 10px;
+ margin-left: 17px;
+ margin-bottom: 20px;
+}
+div.text-bottom-blog-history div.btn-blog p{
+    margin-bottom: -10px;
+}
+div .header div a {
+    font-size: 13px;
+}
+.btn-item-car{
+    background-color: black;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+div .table-bartar{
+    color: #253170;
+}
+.font-color-hamze-14-blue{
+    color: #253170;
+}
+
+div .text-bottom-blog-history div.btn-blog-bottom {
+    background-color: #253170;
+    color: #ffffff;
+    font-size: 10px;
+    margin-left: -15px;
+    margin-bottom: -2px;
+    
+}
+div .text-bottom-blog-history div.btn-blog-bottom p{
+    margin-bottom: 4px;
+}
+div .foter{
+    padding-right: 180px;
+}
+
+.foter{
+    border-start-start-radius: 50px;
+    border-end-start-radius: 50px;
+    padding-right: -80px;
+    
+}
+.nav-e{
+margin-top: 5px;
+    padding-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+.text-foter{
+    margin-right:-10% ;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+}
+.div-footer{
+    width: 100%;
+    height: 100%;
+}
+.logo-footer{
+    width: 170px;
+    height: 170px;
+
+    margin: -44px -194px 0px 0px;
+
+
+}
+.div-mobile-tob-student{
+  padding:  0px 0px 0px 0px ;
+  margin:   0px 0px 0px 0px ;
+}
+@media only screen and (max-width:763px){
+    .text-foter{
+        margin-right:0 ;
+
+    }
+    div .foter{
+        padding-right: 0px;
+    }
+    .text-foter{
+        margin-right:0 ;
+
+    }
+}
+@media only screen and (max-width:555px){
+    img.image-blog{
+        width: 100%;
+        height: 200px;
+    }
+    
+    .text-foter{
+        margin-right:0 ;
+
+    }
+    div .foter{
+        padding-right: 0px;
+    }
+    .text-foter{
+        margin-right:0 ;
+
+    }
+    a.nav-start-ob{
+        font-size: 10px;
+        margin-right: 7px;
+    }
+    .nav-link{
+        font-size: 12px;
+    }
+    .nave-end-ob{
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .navbar-collapse{
+        margin-left: -4px;
+    }
+    .profile-navbar{
+        font-size: 10px;
+    }
+}
+.navbar-collapse{
+
+padding-right: 10px;
+}
