@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from .models import TopStudents, Post
+from django.views import generic
 from django.template.defaulttags import register
 
 
@@ -14,3 +15,12 @@ def homePage(request):
     posts = Post.objects.filter(status=1).order_by('-created_on')
     context = {'rank1': rank1, 'rank2':rank2, 'rank3':rank3, 'posts':posts}
     return render(request, 'index.html', context=context)
+
+
+class PostList(generic.ListView):
+    queryset = Post.objects.filter(status=1).order_by('-created_on')
+    template_name = 'blog.html'
+
+class PostDetail(generic.DetailView):
+    model = Post
+    template_name = 'blog_detail.html'

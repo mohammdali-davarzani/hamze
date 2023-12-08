@@ -14,6 +14,9 @@ class TopStudents(models.Model):
     rank = models.CharField(verbose_name="رتبه", max_length=200, null=False, blank=False)
 
 
+    def __str__(self):
+        return f"{self.firstName}-{self.lastName}-{self.grade}"
+
 class Post(models.Model):
     STATUS = (
         (0,"Draft"),
